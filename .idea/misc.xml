@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/../currency-exchange-service/pom.xml" />
         <option value="$PROJECT_DIR$/currency-convesion-service/pom.xml" />
         <option value="$PROJECT_DIR$/currency-exchange-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../naming-server/pom.xml" />
+        <option value="$PROJECT_DIR$/naming-server/pom.xml" />
       </list>
     </option>
   </component>
