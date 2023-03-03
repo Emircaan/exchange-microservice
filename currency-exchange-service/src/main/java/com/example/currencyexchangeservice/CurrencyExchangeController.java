@@ -29,7 +29,7 @@ public class CurrencyExchangeController {
         CurrencyExchange currencyExchange = repository.findByFromAndTo(from,to);
 
         if(currencyExchange==null) {
-            throw new RuntimeException("Unable to find data for " + from + " to" + to);
+            throw new RuntimeException("Unable to find data for " + from + " to S" + to);
 
         }
 
