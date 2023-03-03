@@ -26,7 +26,7 @@ public class CurrencyConversionController {
                 uriVariables);
         CurrencyConversion currencyConversion = responseEntity.getBody();
         return new CurrencyConversion(currencyConversion.getId(),from,to,quantity,currencyConversion.getConversionMultiple(), quantity.multiply(currencyConversion.getConversionMultiple()),
-                currencyConversion.getEnviroment());
+                currencyConversion.getEnvironment());
 
     }
 
@@ -36,7 +36,7 @@ public class CurrencyConversionController {
 
         CurrencyConversion currencyConversion = proxy.retrieveExchangeValue(from, to);
         return new CurrencyConversion(currencyConversion.getId(),from,to,quantity,currencyConversion.getConversionMultiple(), quantity.multiply(currencyConversion.getConversionMultiple()),
-                currencyConversion.getEnviroment());
+                currencyConversion.getEnvironment());
 
     }
 
